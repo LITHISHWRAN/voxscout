@@ -3,7 +3,7 @@
 
 **VoxScout** is an AI-powered recruiter voice agent that automates candidate screening through real-time conversational interviews. It leverages voice AI to simulate human-like recruiter interactions, evaluate responses, and streamline the hiring pipeline.
 
-Built using **Next.js**, **Murf Falcon (voice AI)**, and **Cline Bot (agent orchestration)**, VoxScout enables companies to conduct scalable, intelligent, and consistent interviews without manual intervention.
+Built using **Next.js**, **Murf Falcon, VoxScout enables companies to conduct scalable, intelligent, and consistent interviews without manual intervention.
 
 ---
 
@@ -39,7 +39,6 @@ Traditional hiring is:
 * **Frontend**: Next.js (App Router, React)
 * **Backend**: Node.js (API routes / server actions)
 * **Voice AI**: Murf Falcon
-* **Agent Logic**: Cline Bot
 * **Database**: (Optional – MongoDB / PostgreSQL)
 * **Deployment**: Vercel / Docker
 
@@ -50,13 +49,8 @@ Traditional hiring is:
 1. Candidate starts interview
 2. Voice agent initiates conversation
 3. Murf Falcon handles speech generation + processing
-4. Cline Bot controls:
-
-   * Question flow
-   * Context memory
-   * Response handling
-5. Responses stored + analyzed
-6. Recruiter gets structured output
+4. Responses stored + analyzed
+5. Recruiter gets structured output
 
 ---
 
@@ -84,7 +78,6 @@ npm run dev
 
 ```
 MURF_API_KEY=
-CLINE_API_KEY=
 DATABASE_URL=
 NEXT_PUBLIC_APP_URL=
 ```
